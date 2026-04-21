@@ -3,7 +3,7 @@
 import { useState, useMemo, useEffect } from 'react';
 import { generatePixPayload } from '@/lib/pix';
 import { QRCodeSVG } from 'qrcode.react';
-import { Copy, CheckCircle, Wallet, ArrowRight, Loader2 } from 'lucide-react';
+import { Copy, CheckCircle, Wallet, ArrowRight, Loader2, ShieldCheck } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { markAsPaid, incrementScanCount } from '@/app/actions';
 
