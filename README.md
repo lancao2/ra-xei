@@ -29,7 +29,7 @@ O **Ra-xei** é uma aplicação SaaS mobile-first projetada para simplificar a d
     Crie um arquivo `.env` na raiz e adicione:
     ```env
     DATABASE_URL="sua-url-do-banco"
-    ENCRYPTION_KEY="uma-chave-de-32-caracteres-para-aes"
+    DATABASE_SSL_CA="sua-chave-ssl-aqui"
     ```
 
 3.  **Prepare o Banco de Dados**:
